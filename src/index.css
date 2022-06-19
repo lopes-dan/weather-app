@@ -1,0 +1,81 @@
+* {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+body {
+  background-color: DodgerBlue;
+
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  margin: 0;
+}
+.outer-grid-days {
+  margin: auto;
+}
+.error {
+  margin-top: 43px;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.grid-days {
+  background-color: #f1f1f1;
+  display: flex;
+  border-radius: 15px;
+  max-width: 78%;
+  margin: auto;
+  justify-content: center;
+  padding-bottom: 12px;
+  box-shadow: 10px 10px 12px darkslategrey;
+}
+.hourly-temp {
+  min-width: 135px;
+  margin-right: 12px;
+}
+
+.grid-days div {
+  margin-right: 62px;
+  min-width: 132px;
+  /*line-height: 90px;*/
+  text-align: center;
+  cursor: pointer;
+}
+.current-weather {
+  /*border: 1px solid black; */
+  min-height: 213px;
+  margin-top: 12px;
+  max-width: 742px;
+  margin: auto;
+  position: relative;
+}
+.temp-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 42px;
+}
+
+.temp-container h2 {
+  position: relative;
+  top: 7px;
+}
+.temp-container h1 {
+  position: relative;
+  right: 7px;
+}
+.sub-temps-container {
+  /*border: 1px solid yellow;*/
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top: 100px;
+  margin: auto;
+  left: 0;
+  text-align: center;
+  justify-content: center;
+}
+
+.sub-temps-container p {
+  margin-right: 20px;
+}
